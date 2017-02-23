@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="crackthecode.game"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+    
+          >
+        <activity
+            android:name="crackthecode.game.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".one"></activity>
+        <activity android:name=".two"></activity>
+          <activity android:name=".three"></activity>
+           <activity android:name=".four"></activity>
+            <activity android:name=".five"></activity>
+            <activity android:name=".six"></activity>
+            <activity android:name=".seven"></activity>
+            <activity android:name=".eight"></activity>
+            <activity android:name=".nine"></activity>
+            <activity android:name=".ten"></activity>
+            <activity android:name=".eleven"></activity>
+            <activity android:name=".twelve"></activity>
+            <activity android:name=".thirteen"></activity>
+            <activity android:name=".fourteen"></activity>
+            <activity android:name=".fifteen"></activity>
+            <activity android:name=".sixteen"></activity>
+            <activity android:name=".seventeen"></activity>
+            <activity android:name=".eighteen"></activity>
+            <activity android:name=".nineteen"></activity>
+            <activity android:name=".twenty"></activity>
+            <activity android:name=".twentyone"></activity>
+            <activity android:name=".twentytwo"></activity>
+            <activity android:name=".twentythree"></activity>
+            <activity android:name=".twentyfour"></activity>
+            <activity android:name=".twentyfive"></activity>
+            <activity android:name=".twentysix"></activity>
+             <activity android:name=".information"></activity>
+              <activity android:name=".inf1"></activity>
+               <activity android:name=".inf2"></activity>
+               <activity android:name=".detail"></activity>
+    </application>
+
+</manifest>

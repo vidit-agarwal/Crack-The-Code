@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/c2">
+
+    <ImageView
+        android:id="@+id/image12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textV12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image12"
+        android:layout_marginBottom="22dp"
+        android:layout_toRightOf="@+id/image12"
+        android:text="INSTRUCTIONS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30sp" />
+
+    
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="PRESS Back !!!"
+       android:textColor="@color/red"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

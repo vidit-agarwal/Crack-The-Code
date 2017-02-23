@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="453dp"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_gradient">
+
+    <ImageView
+        android:id="@+id/textView9"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/card"
+         />
+
+     <EditText
+         android:id="@+id/editText10"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView9"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="37dp"
+         android:ems="10"
+         android:hint="      TYPE HERE....."
+         android:inputType="text"
+         android:maxLength="20"
+         android:textColorHint="@color/white" >
+
+         <requestFocus />
+     </EditText>
+
+     <TextView
+         android:id="@+id/timer9"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/button10"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="14dp"
+         android:textSize="52sp"
+       android:textStyle="bold"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <Button
+         android:id="@+id/button10"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="19dp"
+         android:background="@drawable/purple_button"
+         android:text="VERIFY"
+         android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>

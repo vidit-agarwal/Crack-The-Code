@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/c2">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image1"
+        android:layout_marginBottom="22dp"
+        android:layout_toRightOf="@+id/image1"
+        android:text="INSTRUCTIONS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="14dp"
+        android:text="2. THERE IS A TIMER AT EACH LEVEL , SO YOU HAVE TO ANSWER WITHIN THAT TIME , UNLESS U WILL LOST THE GAME..."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+         android:autoLink="web" />
+
+   
+
+    
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/image1"
+        android:layout_marginTop="17dp"
+        android:text="1. YOU HAVE TO CRACK THE HIDDEN CODE IN THE MESSAGE TO REACH TO THE NEXT LEVEL OF GAME !!!"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp" 
+         android:autoLink="web"/>
+
+  
+    
+     <TextView
+        android:id="@+id/text5"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="22dp"
+        android:text="4.  ONCE  U HAVE LOST THE GAME ,, U WILL BE RE-DIRECTED TO FIRST LEVEL I.E. U WILL HAVE TO START FROM FIRST LEVEL !!!"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text6"
+        android:layout_marginTop="40dp"
+        android:text="6.  IF YOU WANT TO QUIT , TYPE &apos;quit&apos; IN ANSWER BOX... AFTER THAR GAME WILL RESTART FROM FIRST LEVEL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text5"
+        android:layout_marginTop="19dp"
+         android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="5.  YOU CAN'T GO BACK TO PREVIOUS LEVEL ONCE CLEARED ..."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text3"
+        android:layout_marginTop="20dp"
+        android:text="3. THERE IS ONLY ONE CHANCE GIVEN TO YOU TO ANSWER , IF U R WRONG U WILL LOST THE GAME..."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+
+</RelativeLayout>
+
+
+    </ScrollView>
